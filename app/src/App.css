@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.search-input {
+  padding: 5px 10px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #a5a5a5;
+}
+
+.location-list {
+  padding: 0 15px;
+  height: 500px;
+  width: 400px;
+  max-width: 100%;
+  border: 1px solid #a5a5a5;
+  overflow-y: auto;
+  margin: 15px auto;
+  text-align: left;
+}
+
+.location-list p {
+  margin: 8px 0;
+}
+
+.error-message {
+  color: red;
+}
+
+.coordinate {
+  font-size: 14px;
+  color: #828282;
+  margin-left: 10px;
+}
